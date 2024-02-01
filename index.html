@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Assignment</title>
+    <script src="script.js"></script>
 </head>
 <body>
    <section class="container">
@@ -20,13 +21,17 @@
 
                 <p>Phone Number</p>
                 <input type="number">
-
+            <div class="password-container">
                 <p>Password</p>
-                <input type="password">
+                <input type="password" id="passwordInput">
+                <i class="fa-regular fa-eye-slash" onclick="togglePassword"></i>
+            </div>
 
+            <div class="password-container"></div>
                 <p>Confirm Password</p>
-                <input type="password">
-
+                <input type="password" id="passwordInput">
+                <i class="fa-regular fa-eye-slash"></i>
+            </div>
                 <div class="button">
                     <button class="button1">Register</button>
                 </div>

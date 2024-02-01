@@ -112,4 +112,16 @@ h5{
     text-align: center;
     padding-left: 30px;
 }
+.password-container{
+    position: relative;
+}
+
+.fa{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
 
