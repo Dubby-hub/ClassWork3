@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <script src="script.js"></script>
 </head>
 <body>
@@ -24,13 +26,21 @@
                         <div class="password-container">
                             <p>Password</p>
                             <input type="password" id="passwordInput">
-                            <i class="fa-regular fa-eye-slash" onclick="togglePassword"></i>
+                            <i class="fa fa-eye-slash" aria-hidden="true" onclick="togglePassword()"></i>
+                            <!--<i class="toggle-icon" onclick="togglePassword()">👁️</i>
+                                <i class="fa-regular fa-eye-slash" onclick= "togglePassword()"></i>
+                                <i class="toggle-icon fas fa-eye" onclick="togglePassword()">👁️</i>
+                            -->
+                            
                         </div>
                         
                         <div class="password-container">
                                 <p>Confirm Password</p>
-                                <input type="password" id="passwordInput">
-                                <i class="fa-regular fa-eye-slash"></i>
+                                <input type="password" id="pswordInput">
+                                <i class="fa fa-eye-slash" aria-hidden="true" onclick="toglePassword()"></i>
+                               <!-- <i class="fa-regular fa-eye-slash"></i>
+                                <i class="fa-regular fa-eye-slash" onclick= "togglePassword()"></i>
+                                -->
                         </div>
                     
                         <div class="button">
