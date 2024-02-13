@@ -8,7 +8,7 @@ body{
     background-image: url(images/Homepage.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1440px;
+    width: 1500px;
     height: 1024px;
    
     padding: 70px, 828px, 71px, 23px;
@@ -137,6 +137,62 @@ h5{
     cursor: pointer;
 }
 
+
+
+@media screen and (max-width: 600px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container{
+    background-image: url(images/Homepage.png);
+    height: 840px;
+    width: 390px;
+    
+    }
+
+    .form{    
+        width: 350px;
+        height: 700px; 
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .content{
+        width: 346px;
+         height: 694px;
+        padding-top: 40px;
+        padding-left: 25px;
+        
+    }
+
+    .content input{
+        width: 300px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+    }
+
+    .button1{
+        width: 300px;
+
+    }
+
+    .button2{
+        width: 300px;
+        margin-bottom: 10px;
+
+    }
+
+    .lst{
+        padding-left: 10px;
+    }
+    .fa{
+        right: 40px;
+    }
+}
 
 
 
